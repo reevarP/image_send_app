@@ -1,0 +1,70 @@
+/* .fc-red{
+    color: red;
+} */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.container_body{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 4rem;
+}
+
+.button{
+    border: none;
+    background-color: rgb(10, 187, 16);
+    font-weight: 600;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+.button:hover{
+    transition: all;
+    transition-duration: 300ms;
+    background-color: rgb(105, 197, 108);
+    transform: scale(1.1);
+    box-shadow: 4px 4px 8px grey;
+}
+
+.button:active{
+    transition: all;
+    transition-duration: 200ms;
+    box-shadow: inset 8px 4px 5px rgb(62, 141, 115), inset -2px -2px 3px rgb(62, 141, 115);
+}
+
+.image{
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.1rem;
+    background-color: rgb(220, 220, 220);
+    box-shadow: 3px 3px 5px grey;
+    cursor: pointer;
+}
+
+.image:hover{
+    transition: all;
+    transition-duration: 300ms;
+    transform: scale(1.2);
+    box-shadow: 15px 15px 10px grey;
+}
+
+.image img{
+    width: 10rem;
+    height: 10rem;
+}
